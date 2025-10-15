@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(186, 228, 245);
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+* {
+    box-sizing: border-box;
+}
+.img-container {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.img-container1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.img-container2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+p {
+    text-align: center;
+}
